@@ -1,0 +1,23 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "http://scontent.frec5-1.fna.fbcdn.net/v/t1.0-9/21617784_1532312896825148_3780600650807033875_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_eui2=AeFwJWIqkQdO3EGzAf0IiuwDU81JXQWNdnRTzUldBY12dBbwF2HRr0l6LHk2__rLfGeK3iK_14J_08RkcclwVaYE&_nc_ohc=ydMBmty7wA8AX9rMuvr&_nc_ht=scontent.frec5-1.fna&oh=eed627078b8e026a132d3fd5ab240f73&oe=5F46954B",
+      "name": "Rodrigo Melo",
+      "birth": 598492800000,
+      "grau": "mestre",
+      "aula_type": "distancia",
+      "materias": "Química"
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://scontent.frec5-1.fna.fbcdn.net/v/t1.0-9/21617784_1532312896825148_3780600650807033875_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_eui2=AeFwJWIqkQdO3EGzAf0IiuwDU81JXQWNdnRTzUldBY12dBbwF2HRr0l6LHk2__rLfGeK3iK_14J_08RkcclwVaYE&_nc_ohc=Prqf8pcYMOgAX_lEYVH&_nc_ht=scontent.frec5-1.fna&oh=23f46a60b84631d5d89d3a216b907660&oe=5F7216CB",
+      "name": "bryner teste",
+      "birth": 575251200000,
+      "grau": "superior",
+      "aula_type": "presencial",
+      "materias": "Física",
+      "creted_at": 1600867480928
+    }
+  ]
+}
