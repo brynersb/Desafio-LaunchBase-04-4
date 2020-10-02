@@ -102,8 +102,7 @@ header nav a:hover::after{
 }
 
 .card .avatar{
-    background: url(https://source.unsplash.com/collection/10085420/400x600) no-repeat center center / cover;
-    
+    background: url(https://source.unsplash.com/collection/10085420/400x600) no-repeat center center / cover;    
 }
 
 .details{
@@ -175,5 +174,21 @@ button[type="submit"]{
     border-radius: 4px ;
     margin-top: 16px;
     width: 100%;
-    cursor: pointer;
+    color: #3f3c6e;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px black;
+}
+
+a.button{
+    text-decoration: none;
+    padding: 6px 10px;
+    background-color: var(--color-green2);
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #3f3c6e;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px black;
 }

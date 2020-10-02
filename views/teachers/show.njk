@@ -3,41 +3,43 @@
 {% block content %}
     <main>
         <div class="card">
-            <section class="avatar"></section>
+            <section class="avatar2" style="background: url({{teacher.avatar_url}}) no-repeat center center / cover"></section>
             <section class="details">
-                <h3>Detalhes</h3>
+                <h3>Professor</h3>
 
                 <div class="item">
                     <div>Professor</div>
-                    <div>Rodrigo Melo</div>
+                    <div>{{teacher.name}}</div>
                 </div>
 
                 <div class="item">
                     <div>Idade</div>
-                    <div>34 Anos</div>
+                    <div>{{teacher.age}} Anos</div>
                 </div>
 
                 <div class="item">
                     <div>Grau de Escolaridade</div>
-                    <div>Mestre</div>
+                    <div>{{teacher.grau}}</div>
                 </div>
 
                 <div class="item">
                     <div>Tipo de Aula</div>
-                    <div>A distância</div>
+                    <div>{{"Aula Presencial" if teacher.aula_type == "presencial" else "Aula à Distância"}}</div>
                 </div>
 
                 <div class="item">
                     <div>Acompanhamento</div>
                     <div>
-                        <span>Química</span>
-                        <span>Física</span>
+                        {% for materia in teacher.materias %}
+                            <span>{{materia}}</span>
+                        {% endfor %}
                     </div>
                 </div>
                 <div class="item">
                     <div>Desde</div>
-                    <div>01/01/2020</div>
+                    <div>{{teacher.created_at}}</div>
                 </div>
+                <a href="/teachers/{{teacher.id}}/edit" class="button">Editar</a>
             </section>
         </div>
     </main>
